@@ -1,0 +1,11 @@
+class CurrentClass 
+{
+	static
+	{
+		System.out.println("Static BLock Of Current Class");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println(Ex.a);
+	}
+}

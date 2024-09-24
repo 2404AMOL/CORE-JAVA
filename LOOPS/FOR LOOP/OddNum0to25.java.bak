@@ -1,0 +1,36 @@
+//QNO7:-Write A Program To Print All The Odd Numbers Between O to 25
+class OddNum0to25 
+{
+	public static void main(String[] args) 
+	{
+		int count=0;
+
+		for (int num=1;num<=25;num++)
+		{
+			if (num%2==1)
+			{
+				System.out.println(num);
+				count++;
+			}
+		}
+		System.out.println("Total Odd Number is : "+count);
+	}
+}
+/********************************************
+--------------->>>>>OUTPUT>>>>--------------*
+*********************************************
+Even Numbers:-								*
+-->>1										*
+-->>3										*
+-->>5										*
+-->>7										*
+-->>9										*
+-->>11										*
+-->>13										*
+-->>15										*
+-->>17										*
+-->>19										*
+-->>21										*
+-->>23										*
+-->>25										*
+*********************************************/

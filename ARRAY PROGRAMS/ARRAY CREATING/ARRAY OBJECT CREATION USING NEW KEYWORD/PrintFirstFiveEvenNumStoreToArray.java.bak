@@ -1,0 +1,17 @@
+//QNO4:-Write A Program to Store First Five Even Numbers In An Array And Print The Array
+class PrintFirstFiveEvenNumStoreToArray 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+-->>2								*
+-->>4								*
+-->>6								*
+-->>8								*
+-->>10								*
+*************************************/

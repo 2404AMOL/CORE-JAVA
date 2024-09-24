@@ -1,0 +1,9 @@
+class WithoutMainMethod 
+{
+	static int a=10;
+	
+	static
+	{
+		System.out.println("Static Block");
+	}
+}

@@ -1,0 +1,11 @@
+class Program1
+{
+	public static void main(String[] args) 
+	{
+		int num=1;//2
+		System.out.println(num);//1
+		System.out.println(num++);//1 Use a Value & Updated
+		System.out.println(num);//2
+
+	}
+}

@@ -1,0 +1,17 @@
+//QNO15:-Design A Method To Find Largest Number Of 3 Numbers
+class LargestThreeNum
+{
+	public static void main(String[] args) 
+	{
+		findLargest(24,7,15);
+	}
+	public static void findLargest(int a,int b,int c)
+	{
+		System.out.println(a>b && a>c ? a+" : A Is Greater" : b>a && b>c ? b+" : B Is Greater" : c+ " : C Is Greater");
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>A Is Greater:-24							*
+*************************************************/

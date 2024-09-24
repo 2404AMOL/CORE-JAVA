@@ -1,0 +1,10 @@
+//Private Members Are Accesible Only That Class Only 
+//Private Member Are Not Accessible For Outside Class
+//Inside That Class We Can Modify The Private Membes
+class Student
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

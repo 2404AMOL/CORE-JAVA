@@ -1,0 +1,32 @@
+class PrimeNumber 
+{
+	public static void main(String[] args) 
+	{
+		int num = 23;
+		boolean flag = false;
+
+		// 0 and 1 ar not Prime Numbers
+		if (num == 0 || num == 1)
+		{
+			flag = true;
+		}
+		for (int i= 2;i<= num/2 ;++i)
+		{
+			//Condition for Not Prime Number
+			if (num %2==0 )
+			{
+				flag = true;
+				break;
+			}
+		}
+
+		if (!flag)
+		{
+			System.out.println(num + " : Is a Prime Number");
+		}
+		else
+		{
+			System.out.println(num + " : Is Not Prime Number");
+		}
+	}
+}

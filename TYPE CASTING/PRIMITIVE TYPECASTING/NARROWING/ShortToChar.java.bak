@@ -1,0 +1,23 @@
+//QNO16:-Write A Program To Convert The Short To byte
+class ShortToChar 
+{
+	public static void main(String[] args) 
+	{
+		short a=97;
+		//1.Directly
+		char ch=a;//CTE
+		System.out.println(ch);
+
+		//2.Cast Operator
+		char b=(char)a;
+		System.out.println(b);
+
+	}
+}
+/*This is because a short is capable of holding negative values while char isn't, as you might have seen from Character..*/
+/*The reason that a cast is required is that, even though char and short are both 16 bits, a char is unsigned while a short is signed*/
+/*ShortToChar.java:6: error: incompatible types: possible lossy conversion from short to char
+                char ch=a;
+                        ^
+1 error
+Press any key to continue . . .*/

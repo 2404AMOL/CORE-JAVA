@@ -1,0 +1,11 @@
+class Main 
+{
+	public static void main(String[] args) 
+	{//We Can Create An Object For One Class From Another
+		Demo obj1 = new Demo();//Create An Object For Previous Class
+		
+		Main obj2 = new Main();//Create An Object For Current Class
+		System.out.println(obj1);
+		Sysytem.out.println(obj2);
+	}
+}

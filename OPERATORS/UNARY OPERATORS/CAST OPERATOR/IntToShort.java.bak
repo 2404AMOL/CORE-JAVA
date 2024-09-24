@@ -1,0 +1,8 @@
+//QNO12:-Write A Program To Convert The Int To Short
+class IntToShort
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,14 @@
+class ArrayPrintFirst10num 
+{
+	public static void main(String[] args) 
+	{
+		int[] n = new int[11];
+	
+		int a=1;
+		for (int i=1;i<n.length;i++)
+		{
+			n[i] = a++;
+			System.out.println(n[i]);
+		}
+	}
+}

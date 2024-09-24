@@ -1,0 +1,20 @@
+class PrintIntToChar 
+{
+
+	public static void main(String[] args) 
+	{
+		printChar(97)
+		
+	}
+	public static void printChar(int num)
+	{
+		char ch=(char)num;
+		
+		for (;ch<=122;)
+		{
+			
+			System.out.println(" "+ch);
+			ch++;
+		}
+	}	
+}

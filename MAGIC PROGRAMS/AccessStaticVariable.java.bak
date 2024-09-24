@@ -1,0 +1,26 @@
+//QNO1:-How Many Ways we can Access The Non-Static Vraibles.
+class AccessStaticVariable 
+{
+	static int a=10;
+
+	{
+		//Non-Static Block
+		System.out.println("Non-Static Block Starts");
+		System.out.println(this.a);
+		System.out.println("Non-Static Block Starts");
+	}
+	public static void main(String[] args) 
+	{
+		AccessStaticVariable obj = new AccessStaticVariable();
+		System.out.println(a);//Local/Static/Non-Static
+		System.out.println(AccessStaticVariable.a);
+		System.out.println(obj.a);
+		//System.out.println(this.a);//CTE : non-static variable this cannot be referenced from a static context
+	}
+}
+/*	Access The Static Variable
+	1.Using Directly By Its Name
+	2.Using Class Name As Refernce
+	3.Using Object Refrence Variable.
+	4.Using this Keyword but it used from only Non-Static Context(Area);
+*/

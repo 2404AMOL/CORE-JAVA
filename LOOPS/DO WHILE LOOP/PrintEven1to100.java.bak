@@ -1,0 +1,8 @@
+//QNO3:-Write A Program to Print First Five Character
+class PrintEven1to100 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

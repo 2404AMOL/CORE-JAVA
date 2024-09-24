@@ -1,0 +1,10 @@
+//QNO3:-Write A Program To Convert The Double To Int
+class DoubleToInt
+{
+	public static void main(String[] args) 
+	{
+		double a=2404;
+		int b=(int)a;
+		System.out.println(a);
+	}
+}

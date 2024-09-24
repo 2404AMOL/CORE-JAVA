@@ -1,0 +1,8 @@
+//QNO24:-Write A Program To Convert The Long To Double
+class LongToDouble
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

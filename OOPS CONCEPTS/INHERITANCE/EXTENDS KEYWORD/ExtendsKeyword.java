@@ -1,0 +1,42 @@
+class A
+{
+	A()
+	{
+		System.out.println("A() Construcotr");
+	}
+}
+class B extends A
+{
+	B()
+	{
+		System.out.println("B() Construcotr");
+	}
+
+}
+
+/*class C extends A,B We cannot extends More than One class in Java
+{
+	C()
+	{
+		System.out.println("A() Construcotr");
+	}
+}*/
+class C extends B
+{
+	C()
+	{
+		System.out.println("C() Construcotr");
+	}
+}
+class ExtendsKeyword 
+{
+	public static void main(String[] args) 
+	{
+		ExtendsKeyword obj = new ExtendsKeyword();//Here Constructor Invocation is Not Followed
+		C obj1 = new C();//Here Constructot Invocation Is Follwed Up;
+	}
+}
+
+/* If Any Class is not extended then Constructor Invocation is Follwed Up Only Object Class.
+==>Because Object Is Supermost Class in java
+==>Every Class is Automatically extended by Object Class.*/

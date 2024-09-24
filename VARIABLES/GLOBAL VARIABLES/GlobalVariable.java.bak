@@ -1,0 +1,27 @@
+class GlobalVariable 
+{
+
+	static byte a;
+	static short b;
+	static char c;
+	static int d;
+	static long e;
+	static float f;
+	static double g;
+	static boolean h;
+	static String str;
+
+
+	public static void main(String[] args) 
+	{
+		System.out.println(a);//0
+		System.out.println(b);//0
+		System.out.println(c);//
+		System.out.println(d);//0
+		System.out.println(e);//0
+		System.out.println(f);//0.0
+		System.out.println(g);//0.0
+		System.out.println(h);//true
+		System.out.println(str);//null
+	}
+}

@@ -1,0 +1,19 @@
+class ObjectCreationInNonStaticMethod 
+{
+	int a;
+
+	{
+		
+		System.out.println("Non-Static Block");
+	}
+	public void display()
+	{	
+		ObjectCreationInNonStaticMethod oP = new ObjectCreationInNonStaticMethod();
+		System.out.println(oP.a);
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

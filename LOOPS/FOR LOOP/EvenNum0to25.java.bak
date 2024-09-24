@@ -1,0 +1,36 @@
+//QNO4:-Write A Program To Print All The Even Numbers Between O to 25
+class EvenNum0to25 
+{
+	public static void main(String[] args) 
+	{
+		int count=0;
+
+		for (int num=1;num<=25;num++)
+		{
+			if (num%2==0)
+			{
+				System.out.println(num);
+				count++;
+			}
+		}
+		System.out.println("Total Even Num is : "+count);
+	}
+}
+/********************************************
+--------------->>>>>OUTPUT>>>>--------------*
+*********************************************
+Even Numbers:-								*
+-->>0										*
+-->>2										*
+-->>4										*
+-->>6										*
+-->>8										*
+-->>10										*
+-->>12										*
+-->>14										*
+-->>16										*
+-->>18										*
+-->>20										*
+-->>22										*
+-->>24										*
+*********************************************/

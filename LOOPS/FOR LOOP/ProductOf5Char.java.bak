@@ -1,0 +1,13 @@
+class ProductOf5Char 
+{
+	public static void main(String[] args) 
+	{
+		int mul=1;
+
+		for (char ch='a';ch<='e';ch++)
+		{
+			mul*=ch;
+		}
+		System.out.println(mul);
+	}
+}

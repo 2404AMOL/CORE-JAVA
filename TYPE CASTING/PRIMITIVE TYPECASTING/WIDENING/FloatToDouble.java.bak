@@ -1,0 +1,8 @@
+//QNO26:-Write A Program To Convert The Float To Double
+class FloatToDouble
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

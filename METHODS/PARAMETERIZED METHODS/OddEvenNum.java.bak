@@ -1,0 +1,13 @@
+//QNO13:-Design A Method To Chack Given Number Is Odd Or Even
+class OddEvenNum
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>4:-This Is Even Number						*
+*************************************************/

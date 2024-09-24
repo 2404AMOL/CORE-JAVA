@@ -1,0 +1,8 @@
+//QNO3:- Write a Program to print the First Ten Numbers
+class Print10Num
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,32 @@
+//QNO12:-Design A Method To Check Given Character
+class CheckCharacter
+{
+	public static void main(String[] args) 
+	{
+		checkCharacter('@');
+	}
+	public static void checkCharacter(char ch)
+	{
+		if (ch >= 'A' && ch <= 'Z')
+		{
+			System.out.println(ch+" : Given Character Is Uppercase Alphabet");
+		}
+		else if (ch >='a' && ch <= 'z')
+		{
+			System.out.println(ch+": Given Character is Lowercase Alphabet");
+		}
+		else if (ch >='0' && ch <= '9')
+		{
+			System.out.println(ch+": Given Character is Digit");
+		}
+		else
+		{
+			System.out.println(ch+" : Given Character IS Special Symbol");
+		}
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>@:-Given Character Is A Special Symbol		*
+*************************************************/

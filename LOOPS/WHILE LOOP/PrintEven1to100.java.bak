@@ -1,0 +1,8 @@
+//QNO4:- Write a Program to print the Even Numbers Between 1 to 100
+class PrintEven1to100
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

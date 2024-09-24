@@ -1,0 +1,18 @@
+//QNO12:-Write A Program To Convert The Char To Int
+
+class CharToInt 
+{
+	public static void main(String[] args) 
+	{
+		char ch='a';
+		int a=ch;
+		System.out.println(a);
+	}
+}
+
+//==>We can Convert The Char To Double Because char has small and Double is large Datatype.
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+-->>97								*
+*************************************/

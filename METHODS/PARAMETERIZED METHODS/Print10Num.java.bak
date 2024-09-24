@@ -1,0 +1,16 @@
+//QNO3:-Design A Method To Print First 10 Numbers
+class Print10Num 
+{
+	public static void main(String[] args) 
+	{
+		printNum(1);
+	}
+	public static void printNum(int num)
+	{
+		while(num<=10)
+		{
+			System.out.println(num);
+			num++;
+		}
+	}
+}

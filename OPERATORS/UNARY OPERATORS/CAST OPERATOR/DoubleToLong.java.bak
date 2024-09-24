@@ -1,0 +1,10 @@
+//QNO2:-Write A Program To Convert The Double To long
+class DoubleToLong
+{
+	public static void main(String[] args) 
+	{
+		double a=2404;
+		long b=(long)a;
+		System.out.println(b);
+	}
+}

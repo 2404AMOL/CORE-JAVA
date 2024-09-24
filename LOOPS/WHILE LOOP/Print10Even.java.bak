@@ -1,0 +1,9 @@
+//QNO18:- Write a Program to print 10 Even Number
+
+class Print10Even
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

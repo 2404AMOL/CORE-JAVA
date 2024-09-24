@@ -1,0 +1,18 @@
+//QNO8:-Design A Method To Calculate The Area Of Square
+class AreaOfSquare
+{
+	public static void main(String[] args) 
+	{
+		findArea(5);
+	}
+	public static void findArea(double side)
+	{
+		double area = side * side;
+		System.out.println(area);
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>The Area OF Square Is:-25.0					*
+*************************************************/

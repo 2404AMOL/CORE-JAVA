@@ -1,0 +1,15 @@
+//QNO21:-Write A Program To Convert The Int To Double
+class IntToDouble
+{
+	public static void main(String[] args) 
+	{
+		int a=24;
+		//1.Directly
+		double b=a;
+		System.out.println(a);
+
+		//2.Cast Operator
+		double c=(double)a;
+		System.out.println(c);
+	}
+}

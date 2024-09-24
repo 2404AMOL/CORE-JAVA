@@ -1,0 +1,22 @@
+class ForDemo 
+{
+	public static void main(String[] args) 
+	{
+		
+		int i=1;
+		//Wrirting different way of for loop
+		//1.Ways
+		for (;i<5; )
+		{
+			System.out.println(i);
+			i++;
+		}
+		//2.Ways
+		for (System.out.println(i);i<5;System.out.println(i))
+		{
+			i++;
+		}
+
+		
+	}
+}

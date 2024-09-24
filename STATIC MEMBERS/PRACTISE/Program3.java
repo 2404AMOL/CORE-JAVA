@@ -1,0 +1,14 @@
+class Program3 
+{
+	static
+	{
+		System.out.println(Demo.a);
+		Demo.a=20;
+		System.out.println(Demo.a);
+	}
+
+	public static void main(String[] arg) 
+	{
+		System.out.println("Hello World!");
+	}
+}

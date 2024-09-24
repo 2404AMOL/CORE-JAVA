@@ -1,0 +1,31 @@
+//QNO4:-Write A Program To Check The Break Keyword Use Inside The Loop
+//=> Yes we can use the break keyword inside the looping but at the end;
+class CheckInsideLoopBreak
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Start");
+		int a=0;
+
+		while (a<5)
+		{
+			System.out.println("Hi");
+			
+			if(a==2)
+			{
+				System.out.println("GoodBye");
+				//break//We Can't Use break Inside The Loop in the middle.
+				a++;//We Get Compile Time Error
+				break;//We can use but at the end of the block
+			}
+			System.out.println("Bye");
+			a++;
+		}
+		System.out.println("Main End");
+	}
+}
+
+/*****************************OUTPUT**************************/
+//CheckInsideLoopBreak.java:18: error: unreachable statement *	
+//                                a++;						 *
+/*************************************************************/

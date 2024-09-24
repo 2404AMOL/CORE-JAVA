@@ -1,0 +1,19 @@
+//QNO4:-Write A Program To Find First Digit Of Given Number
+class FindFirstDigit 
+{
+	public static void main(String[] args) 
+	{
+		int digit=74, first;
+		first=digit;
+		while (first>=10)
+		{
+			first=first/10;
+		}
+		System.out.println(first);
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>7											*
+*************************************************/

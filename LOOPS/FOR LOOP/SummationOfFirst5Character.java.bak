@@ -1,0 +1,14 @@
+class SummationOfFirst5Character 
+{
+	public static void main(String[] args) 
+	{
+		int sum=0;
+		int num;
+
+		for (char ch='a';ch<='e';ch++)
+		{
+			sum+=num;
+		}
+		System.out.println("The Summation of First Five Characters : "+sum);
+	}
+}

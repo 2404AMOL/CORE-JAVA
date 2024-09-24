@@ -1,0 +1,18 @@
+//QNO10:-Design A Method To Calculate The Area Of Rectangle
+class AreaOfRectangle
+{
+	public static void main(String[] args) 
+	{
+		findArea(5,10);
+	}
+	public static void findArea(int height,int width)
+	{
+		int area = height * width;
+		System.out.println(area);
+	}
+}
+/************************************************
+---------------->>>>>OUTPUT>>>>-----------------*
+*************************************************
+-->>The Area Of Rectangle Is:-50				*
+*************************************************/

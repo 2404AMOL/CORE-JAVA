@@ -1,0 +1,11 @@
+//QNO17:-Write A Program To Convert The Short To short
+class ShortToShort 
+{
+	public static void main(String[] args) 
+	{
+		short a=97;
+		short b=a;
+
+		System.out.println(b);
+	}
+}

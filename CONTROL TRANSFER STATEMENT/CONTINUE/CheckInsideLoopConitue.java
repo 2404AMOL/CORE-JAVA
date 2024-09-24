@@ -1,0 +1,41 @@
+//QNO2:-Write A Program To Check The Continue Keyword Use Inside The Loop
+
+class CheckInsideLoopConitue
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Start");
+		int a=0;
+
+		while (a<5)
+		{
+			System.out.println("Hi");
+			
+			if(a==2)
+			{
+				System.out.println("GoodBye");
+				//continue;//We Can't Use continue Inside The Loop in the middle.
+				a++;//We Get Compile Time Error
+				continue;//we can use the at the end of the block.
+			}
+			System.out.println("Bye");
+			a++;
+		}
+		System.out.println("Main End");
+	}
+}
+
+/********************************OUTPUT****************************
+Main Start
+Hi
+Bye
+Hi
+Bye
+Hi
+GoodBye
+Hi
+Bye
+Hi
+Bye
+Main End
+/******************************************************************/

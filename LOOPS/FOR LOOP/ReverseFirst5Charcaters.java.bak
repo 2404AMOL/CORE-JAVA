@@ -1,0 +1,10 @@
+class ReverseFirst5Charcaters 
+{
+	public static void main(String[] args) 
+	{
+		for (char ch='E';ch>='A';ch--)
+		{
+			System.out.println(ch);
+		}
+	}
+}

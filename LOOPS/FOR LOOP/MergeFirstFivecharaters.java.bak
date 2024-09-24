@@ -1,0 +1,15 @@
+class MergeFirstFivecharaters 
+{
+	public static void main(String[] args) 
+	{
+		String str="";
+
+		char ch;
+
+		for (ch='a';ch<='e';ch++)
+		{
+			str+=ch;
+		}
+		System.out.println(str);
+	}
+}

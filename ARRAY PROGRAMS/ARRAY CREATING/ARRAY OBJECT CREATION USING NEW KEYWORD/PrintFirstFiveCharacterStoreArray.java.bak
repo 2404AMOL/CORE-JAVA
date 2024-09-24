@@ -1,0 +1,22 @@
+//QNO3:-Write A Program Print First Five Character And Store Into Array
+class PrintFirstFiveCharacterStoreArray 
+{
+	public static void main(String[] args) 
+	{
+		char[] ch = new char[5];
+
+		for (int i=0;i<ch.length;i++)
+		{
+			System.out.println(ch[i]);
+		}
+	}
+}
+/************************************
+--------->>>>>OUTPUT>>>>------------*
+*************************************
+-->>a								*
+-->>b								*
+-->>c								*
+-->>d								*
+-->>e								*
+*************************************/

@@ -1,0 +1,20 @@
+class If 
+{
+	public static void main(String[] args) 
+	{
+		if (true)
+		System.out.println("Statement 1");//true
+		System.out.println("Statement 2");//false
+	}
+}
+/*		Syntax
+			 ===if(true)=============
+		true||=====	Statement 1;	|| false
+			Both  ||Statement 2;<====
+
+/*=====================================================================================
+							IF Statement
+=====================================================================================
+==>If the condition is true then it executed Both Statement.
+==>If the condition is false then it excuted seconde Statement.
+=====================================================================================*/

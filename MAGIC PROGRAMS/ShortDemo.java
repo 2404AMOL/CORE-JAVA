@@ -1,0 +1,14 @@
+class ShortDemo
+{
+	public static void main(String[] args) 
+	{
+		short a='A';
+		System.out.println(a);
+	}
+}
+/* Here We can write directly assign the Character value to the short.
+==>But you cannot convert the short to char.
+==>Because short is signed bit
+==> It can hold Both Positive and Negative value.
+/*This is because a short is capable of holding negative values while char isn't, as you might have seen from Character..*/
+/*The reason that a cast is required is that, even though char and short are both 16 bits, a char is unsigned while a short is signed*/

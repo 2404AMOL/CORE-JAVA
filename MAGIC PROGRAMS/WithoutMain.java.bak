@@ -1,0 +1,13 @@
+class WithoutMain
+{
+	static 
+	{
+		System.out.print("JAVA HOW TO");
+		System.exit(0);
+	}
+
+}
+/*
+==>We can Compile Program without main method we niether get any Compile Time Error.
+==>Butr At the RunTime we 
+*/

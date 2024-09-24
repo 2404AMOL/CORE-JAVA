@@ -1,0 +1,16 @@
+class WhileLoop 
+{
+	public static void main(String[] args) 
+	{
+		while (false)//CTE : -
+		{
+			System.out.println("Hello World");
+		}
+
+	}
+}
+//If we are declaring the flase inside the while loop the give CTE
+// Unreachable Statement
+// Beacuse Program Executed line by line that you have declare false
+// The the Compiler stuck in the while block.
+// It will throw an Erro

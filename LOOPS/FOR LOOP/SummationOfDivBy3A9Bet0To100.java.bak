@@ -1,0 +1,17 @@
+class SummationOfDivBy3A9Bet0To100 
+{
+	public static void main(String[] args) 
+	{
+		int sum=0;
+
+		for (int num=1;num<=100;num++)
+		{
+			if (num%3==0 && num%9==0)
+			{
+				System.out.println(num);
+				sum+=num;
+			}
+		}
+		System.out.println("The Summation is : "+sum);
+	}
+}

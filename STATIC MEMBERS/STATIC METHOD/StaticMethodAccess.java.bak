@@ -1,0 +1,16 @@
+class StaticMethodAccess
+{
+	static public void demo()
+	{
+		System.out.println("Demo()");
+	}
+	static
+	{
+		demo();//Directly By Its Name
+		StaticMethodAccess.demo();
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

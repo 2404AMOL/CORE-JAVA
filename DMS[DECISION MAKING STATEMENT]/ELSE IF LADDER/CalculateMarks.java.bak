@@ -1,0 +1,42 @@
+/*QNO1:-Write A program
+1.To Calculate the Percentage
+2.To Calculate the Total Marks
+3.To check Pass or Fail
+4.To check First Class,Second Class,Distinction
+Using Else If Ladder*/
+
+class CalculateMarks
+{
+	public static void main(String[] args) 
+	{
+		int Sub1=75,Sub2=83,Sub3=90,Sub4=82;
+
+		int Total=Sub1+Sub2+Sub3+Sub4;
+		double Per=((Total*100)/400);
+		
+		if (Per>=74)
+		{
+			System.out.println(Per + " : Distinction");
+		}
+		else if(Per>=60)
+		{
+			System.out.println(Per + " : First Class");
+		}
+		else if (Per>=50)
+		{
+			System.out.println(Per + " : Second Class");
+		}
+		else if (Per>=35)
+		{
+			System.out.println(Per + " : Pass");
+		}
+		else
+		{
+			System.out.println(Per + " : Fail");
+		}
+
+		System.out.println("Total Marks is : " + Total);
+		System.out.println("Percentage is : " + Per);
+
+	}
+}

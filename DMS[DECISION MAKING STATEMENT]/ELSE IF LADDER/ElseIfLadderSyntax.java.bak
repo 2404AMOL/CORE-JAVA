@@ -1,0 +1,19 @@
+Else-If Ladder
+Syntax: -
+				if (Condition)
+				{	//if block
+					Statement-1;
+				Statement-2;
+				}
+				else if (Condition)
+				{	//else-if block
+					Statements;
+				}
+				else if (Condition)
+				{	//else-if block
+					Statements;
+				}
+				else
+				{	//else block
+					Statements;
+				}

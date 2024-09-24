@@ -1,0 +1,8 @@
+//QNO6:-Write A Program To Convert The Double To Byte
+class DoubleToByte
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
