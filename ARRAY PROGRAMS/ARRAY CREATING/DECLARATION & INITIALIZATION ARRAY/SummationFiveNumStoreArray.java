@@ -3,14 +3,14 @@ class SummationFiveNumStoreArray
 {
 	public static void main(String[] args) 
 	{
-		int n[]={1,2,3,4,5};
+		int num[]={1,2,3,4,5};
 
 		int sum=0;
 		
 
-		for(int index=0;index<n.length;index++)
+		for(int index=0;index<num.length;index++)
 		{
-			sum=sum+n[index];	
+			sum=sum+num[index];	
 		}
 		System.out.println(sum);
 		

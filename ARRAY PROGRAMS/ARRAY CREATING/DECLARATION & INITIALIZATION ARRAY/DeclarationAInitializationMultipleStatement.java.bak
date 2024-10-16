@@ -5,8 +5,8 @@ class DeclarationAInitializationMultipleStatement
 	public static void main(String[] args) 
 	{
 		int [] n;
-		n={1,2,3,4,5};//Declaration And Initialization Array Cannot Be Clone In Multiple Statement
-		System.out.println(n);//WE get compile Time Error
+		n = {1,2,3,4,5};//Declaration And Initialization Array Cannot Be Clone In Multiple Statement
+		System.out.println(n);//We get compile Time Error
 	}
 }
 /************************************************************************************************************

@@ -4,8 +4,9 @@ class ArrayDeclarationAInitialization
 {
 	public static void main(String[] args) 
 	{
-		int [] n = {1,2,3,4,5};//Declaration And Initialization Of Array
-		System.out.println(n);
+		int [] arr = {1,2,3,4,5};//Declaration And Initialization Of Array
+		System.out.println(arr);
+		System.out.println(arr.length);
 	}
 }
 /************************************

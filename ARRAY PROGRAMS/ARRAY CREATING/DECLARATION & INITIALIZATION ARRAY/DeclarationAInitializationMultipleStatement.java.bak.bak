@@ -1,4 +1,4 @@
-//QNO2=Declaration And Initialization Array In Clone Multiple Statement
+//QNO2:-Declaration And Initialization Array In Clone Multiple Statement
 
 class DeclarationAInitializationMultipleStatement
 {
@@ -6,7 +6,7 @@ class DeclarationAInitializationMultipleStatement
 	{
 		int [] n;
 		n={1,2,3,4,5};//Declaration And Initialization Array Cannot Be Clone In Multiple Statement
-		System.out.println(n);//WE get compile Time Error
+		System.out.println(n);//We get compile Time Error
 	}
 }
 /************************************************************************************************************

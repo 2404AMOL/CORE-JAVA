@@ -12,8 +12,6 @@ class Print5Num
 	}
 	public static void main(String[] args) 
 	{
-		System.out.println("Start");
 		printNum(0);
-		System.out.println("End");
 	}
 }

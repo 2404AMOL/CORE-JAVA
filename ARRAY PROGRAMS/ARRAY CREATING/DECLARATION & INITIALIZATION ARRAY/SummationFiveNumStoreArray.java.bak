@@ -1,4 +1,4 @@
-//QNO3=Write A Program Print Summation of First Five Number And Store Into An Array
+//QNO3:-Write A Program Print Summation of First Five Number And Store Into An Array
 class SummationFiveNumStoreArray 
 {
 	public static void main(String[] args) 
